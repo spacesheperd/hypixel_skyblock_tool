@@ -23,7 +23,7 @@ This project is designed to interact with the Hypixel Skyblock API to gather and
 To use this project, you need to install the required Python libraries. You can do this using `pip`. Run the following command in your terminal:
 
 ```bash
-pip install requests pandas mojang
+pip install requests pandas mojang shutil schedule
 ```
 
 ## Usage
@@ -84,10 +84,19 @@ To run this project, you need to install the following Python packages:
      pip install schedule
      ```
 
-2. **`requests`**: For making HTTP requests to the APIs.
+2. **`panda`**: To manipulate datas. 
+     ```bash
+     pip install panda
+     ```
+
+3. **`requests`**: For making HTTP requests to the APIs.
    - Installation: 
      ```bash
      pip install requests
      ```
 
-3. **`json`**: This is included in Python's standard library, so no installation is needed.
+4. **`shutil`**: To access to directories.
+   - Installation: 
+     ```bash
+     pip install shutil
+     ```
